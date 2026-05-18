@@ -20,17 +20,20 @@ The system was developed as part of a graduate capstone course and sponsored by 
 
 ## Problem Context
 
-Credit for Prior Learning evaluation requires students to clearly explain prior work, training, certifications, or academic experience in ways that faculty can evaluate.
+Credit for Prior Learning (CPL) enables degree-seeking learners to earn academic credit for knowledge and skills acquired outside traditional academic settings (e.g., work experience, military service, certifications, independent study). 
 
-A major challenge is collecting information that is:
+Despite its potential to improve equity and access, CPL remains significantly underutilized due to:
 
-- specific
-- evidence-based
-- relevant to course outcomes
-- consistent across students
-- safe from unsupported approval claims
+- The time and effort required for applicants to articulate prior learning
+- The difficulty of mapping experiential knowledge to academic learning outcomes
+- Inconsistencies and inefficiencies in evaluation processes
+- Barriers faced by learners from diverse cultural, linguistic, and socioeconomic backgrounds
 
-This project explores how conversational AI can support the early intake and evidence-gathering stage of CPL review.
+This project explores how conversational AI can support the early intake and evidence-gathering stage of CPL review. The goal is to design and prototype an AI-driven CPL Evaluation Chatbot that supports:
+
+- Applicants, by guiding them through structured, competency-based conversations to surface relevant experiences
+- Evaluators, by producing clearer, more consistent, and more analyzable CPL evidence
+- Institutions, by improving efficiency, transparency, and equity in CPL assessment workflows
 
 -----
 
