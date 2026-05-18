@@ -1,15 +1,148 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>CPL Instructor App</title>
-  </head>
-  <body>
-    <h2>CPL Instructor App is Running</h2>
-    <ul>
-      <li><a href="/chat">Chat demo</a></li>
-      <li><a href="/admin">Admin / Config status</a></li>
-      <li><a href="/health">Health</a></li>
-    </ul>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CPL AI Evaluation Platform</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">CPL AI Evaluation Platform</div>
+      <div class="nav-links">
+        <a href="/instructor_panel">Instructor Panel</a>
+        <a href="/admin">Admin</a>
+        <a href="/health">Health</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="badge">Azure-hosted · LLM-powered · Faculty-sponsored</div>
+
+      <h1>Conversational AI for Credit for Prior Learning Evaluation</h1>
+
+      <p class="subtitle">
+        A cloud-deployed platform for testing, benchmarking, and evaluating AI chatbots
+        designed to support structured CPL interviews and evidence gathering.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button primary" href="/instructor_panel">Open Instructor Panel</a>
+        <a class="button secondary" href="/chat">Open Course Helper Bot</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Project Overview</h2>
+      <p class="section-intro">
+        This project was developed as a graduate capstone initiative at Northeastern University.
+        Student teams built and deployed CPL-focused chatbot prototypes, while the instructor
+        platform provided evaluation, benchmarking, diagnostics, and stakeholder-facing review tools.
+      </p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Multi-Team Evaluation</h3>
+        <p>Compare multiple student-built chatbot systems using standardized CPL scenarios.</p>
+      </div>
+
+      <div class="card">
+        <h3>Rubric-Based Scoring</h3>
+        <p>Evaluate responses on interview quality, specificity, tone, policy safety, evidence focus, and CPL alignment.</p>
+      </div>
+
+      <div class="card">
+        <h3>Azure Cloud Deployment</h3>
+        <p>Built with Azure App Service, Azure OpenAI, Azure SQL, Flask, and GitHub Actions CI/CD.</p>
+      </div>
+
+      <div class="card">
+        <h3>Stakeholder Feedback</h3>
+        <p>Presented to CPL faculty stakeholders for practical feedback and future development direction.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <h2>System Architecture</h2>
+        <p>
+          The platform connects deployed student chatbots to an instructor evaluation layer.
+          Standardized scenarios are sent to each chatbot, responses are scored using LLM-assisted
+          rubrics, and results are logged for comparison and analysis.
+        </p>
+      </div>
+
+      <div class="architecture">
+        <div>Student Chatbots</div>
+        <span>↓</span>
+        <div>Instructor Evaluation Platform</div>
+        <span>↓</span>
+        <div>Azure OpenAI Rubric Scoring</div>
+        <span>↓</span>
+        <div>Azure SQL Logging & Analytics</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Live Student Team Prototypes</h2>
+      <p class="section-intro">
+        These deployed applications represent the completed student team prototypes.
+        Usage limits may be enabled to manage cloud and API costs.
+      </p>
+
+      <div class="team-grid">
+        <a class="team-card" href="https://cpl-team1-app-bwffb8cpf4fzf6ef.eastus-01.azurewebsites.net/" target="_blank">
+          <strong>Team 1</strong>
+          <span>Creative Catalysts</span>
+        </a>
+
+        <a class="team-card" href="https://cpl-team2-app-faeda5cvfjc3e4d8.eastus-01.azurewebsites.net/" target="_blank">
+          <strong>Team 2</strong>
+          <span>LuckyDucky</span>
+        </a>
+
+        <a class="team-card" href="https://cpl-team3-app-dqecavgmhvecavb6.eastus-01.azurewebsites.net/" target="_blank">
+          <strong>Team 3</strong>
+          <span>Prototype App</span>
+        </a>
+
+        <a class="team-card" href="https://cpl-team4-app-bjakewhwdrbwc8fa.eastus-01.azurewebsites.net/" target="_blank">
+          <strong>Team 4</strong>
+          <span>Prototype App</span>
+        </a>
+
+        <a class="team-card" href="https://cpl-team5-app-gjdpfpebfxcnf5cp.eastus-01.azurewebsites.net/" target="_blank">
+          <strong>Team 5</strong>
+          <span>Prototype App</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Technical Stack</h2>
+      <div class="stack">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>Azure App Service</span>
+        <span>Azure OpenAI</span>
+        <span>Azure SQL</span>
+        <span>GitHub Actions</span>
+        <span>HTML/CSS/JavaScript</span>
+        <span>pyodbc</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Developed as part of a graduate capstone project at Northeastern University,
+      College of Professional Studies.
+    </p>
+  </footer>
+</body>
 </html>
