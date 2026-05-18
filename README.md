@@ -1,4 +1,5 @@
-# CPL AI Evaluation Platform  
+# [CPL AI Evaluation Platform](https://cpl-instructor-app-prod.azurewebsites.net/)
+
 ### Cloud-Deployed Conversational Agents for Credit for Prior Learning Assessment
 
 This project is a cloud-deployed AI platform designed to support **Credit for Prior Learning (CPL)** evaluation through structured conversational interviews, evidence collection, and stakeholder-facing demonstrations.
@@ -50,9 +51,12 @@ At a high level, the project includes:
 
 -----
 
-## Live Team Applications
+## Live Platform
 
-The following deployed applications represent the completed student team prototypes:
+### Main Instructor Platform
+https://cpl-instructor-app-prod.azurewebsites.net/
+
+### Student Team Deployments
 
 - **Team 1 – Creative Catalysts:**  
   https://cpl-team1-app-bwffb8cpf4fzf6ef.eastus-01.azurewebsites.net/
