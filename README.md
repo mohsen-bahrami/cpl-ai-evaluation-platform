@@ -50,9 +50,12 @@ At a high level, the project includes:
 
 -----
 
-## Live Team Applications
+## Live Platform
 
-The following deployed applications represent the completed student team prototypes:
+### Main Instructor Platform
+https://cpl-instructor-app-prod.azurewebsites.net/
+
+### Student Team Deployments
 
 - **Team 1 – Creative Catalysts:**  
   https://cpl-team1-app-bwffb8cpf4fzf6ef.eastus-01.azurewebsites.net/
