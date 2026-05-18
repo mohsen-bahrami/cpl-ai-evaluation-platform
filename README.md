@@ -5,7 +5,7 @@ This project is a cloud-deployed AI platform designed to support **Credit for Pr
 
 The system was developed as part of a graduate capstone course and sponsored by faculty involved in CPL application review. Student teams designed and deployed their own conversational AI applications, while the instructor platform provided infrastructure, evaluation, and benchmarking support.
 
----
+-----
 
 ## Project Highlights
 
@@ -16,7 +16,7 @@ The system was developed as part of a graduate capstone course and sponsored by 
 - Built an instructor evaluation dashboard to compare chatbot performance across teams
 - Evaluated systems using standardized CPL scenarios and rubric-based scoring
 
----
+-----
 
 ## Problem Context
 
@@ -32,7 +32,7 @@ A major challenge is collecting information that is:
 
 This project explores how conversational AI can support the early intake and evidence-gathering stage of CPL review.
 
----
+-----
 
 ## System Architecture
 
@@ -45,7 +45,7 @@ At a high level, the project includes:
 - Instructor control/evaluation platform
 - Standardized test scenarios and rubric-based scoring
 
----
+-----
 
 ## Live Team Applications
 
@@ -68,7 +68,7 @@ The following deployed applications represent the completed student team prototy
 
 Note: Applications may have usage limits enabled to manage cloud/API costs.
 
----
+-----
 
 ## Instructor Evaluation Platform
 
@@ -90,7 +90,7 @@ Evaluation dimensions included:
 - Evidence focus
 - CPL alignment
 
----
+-----
 
 ## Technologies Used
 
@@ -104,7 +104,7 @@ Evaluation dimensions included:
 - pyodbc
 - Gunicorn
 
----
+-----
 
 ## Skills Demonstrated
 
@@ -118,13 +118,13 @@ This project demonstrates experience with:
 - Stakeholder-centered product prototyping
 - Responsible AI design for education workflows
 
----
+-----
 
 ## Status
 
 The project reached a working prototype stage and was presented to CPL faculty stakeholders. Faculty feedback will inform future development toward a more complete CPL intake and decision-support tool.
 
----
+-----
 
 ## Original Infrastructure Release
 
