@@ -54,7 +54,7 @@ At a high level, the project includes:
 ## Live Platform
 
 ### Main Instructor Platform
-https://cpl-instructor-app-prod.azurewebsites.net/
+https://cpl-instructor-app-prod-amgga8enhegfbfdc.eastus-01.azurewebsites.net/
 
 ### Student Team Deployments
 
